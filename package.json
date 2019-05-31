@@ -1,0 +1,22 @@
+{
+  "name": "assignment1-mdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPSathish/Assignment1-MDEV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPSathish/Assignment1-MDEV/issues"
+  },
+  "homepage": "https://github.com/SPSathish/Assignment1-MDEV#readme",
+  "devDependencies": {
+    "sqlite3": "^4.0.8"
+  }
+}
