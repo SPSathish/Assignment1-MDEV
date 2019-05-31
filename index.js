@@ -37,12 +37,12 @@ db.serialize(function(){
     });
 
 
-    // Print the room number and building name for those rooms whose capacity is greater than 50.
+    // Print the room number and building name for the rooms with capacity  greater than 50.
     db.each("SELECT building,room_number FROM Classroom WHERE Capacity>50",function(err,row){
         // console.log(row);
     });
 
-    // Print the names of those departments whose budgets are greater than $85,000.
+    // Print the names of the departments with budgets are greater than $85,000.
     db.each("SELECT Dept_name FROM DEPARTMENT WHERE Budget>85000",function(err,row){
         // console.log(row);
     });
